@@ -1,0 +1,36 @@
+Hey this Rubanrubi, Here the steps to create laravel New Project With Auth scaffolding
+     
+Step 1   =>  To Create Laravel Project by using this Command it will create the updated version of Laravel Project
+        
+               composer create-project --prefer-dist laravel/laravel your_project_name
+
+Step 2   => Install this below package via Composer, This package Contains Bootstrap and Vue scaffolding provided by Laravel
+     
+              composer require laravel/ui
+     
+Step 3   =>  After Run any of the oone below whatever you want    
+
+              For Vue       : php artisan ui vue --auth,  
+        
+              For Bootstrap : php artisan ui bootstrap --auth
+
+Step 4   => This is the output of the Command is,
+
+              Vue scaffolding installed successfully.
+              Please run "npm install && npm run dev" to compile your fresh scaffolding.
+              Authentication scaffolding generated successfully.
+
+Step 5   => Then Go to your login page for eg. http://localhost/your_project_name/login
+
+             It show a login screen without Styling So You Need Styling Means Run the Below Command for installing Frontend Dependencies,
+
+             For Windows : npm install && npm run dev
+               
+             For MacOs,Ubuntu : sudo npm install  &&  sudo npm run dev
+
+             Then Go with the same Login Route It's Gonna Crazy....
+
+                  Do Support.. Kindly Drop your Issues,Suggestions....
+       
+  
+
